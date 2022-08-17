@@ -868,3 +868,7 @@ if Input.KeyCode == Enum.KeyCode.F then
 Window:Toggle()
 end
 end)
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Game Invalid!";
+ Text = "Please Check The Discord For All Valid Games!";
+})
